@@ -1,0 +1,42 @@
+In floating point epresentation we have 3 components.
+1. Sign
+2. Fractional part
+3. Exponent
+
+Precission and Accuracy are two important concepts in floating point numbers. 
+Not all floating point numbers can be represented.
+For example,
+  0.5 can be represented accurately but 0.1 cannot be.
+In order to represent 0.5 we just need 2 bits. But that is not case with 0.1, where we need infinite bits.
+Precision comes into picture when you can't represent a number accurately.
+Since we cannot represent every number accurately we should round it off to a representable number close to it. 
+So the focus should be on representing more numbers than the range of numbers. 
+At the same time size of a register is limited in any computer architecture. So we have a trade off between range and precision.
+
+Mantissa holds the detail of the number, so increasing its storage size results in more precision. 
+At the same time increasing the size of exponent increases the range of numbers.  
+
+For example,
+Representation of 0.1 in 4  decimal bits is 0.0001 which is 0.0625 and 5 decimal bits is 0.0001 which is 0.09375. 
+It is evident form the example that as we increase the size of fractional part we can represent numbers more Precisely.
+Thus we can say that size of fractional part affects precision.
+
+Since the total size of register is fixed,in any architecture there will be a trade off between Range and precision
+which in turn is a trade off between size of mantissa and exponent.
+
+
+
+
+
+
+
+
+
+ 
+      
+
+ 
+
+
+
+ 
